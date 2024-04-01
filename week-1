@@ -1,1 +1,30 @@
 
+1.pwd --> for know username of computer
+
+2. ls --> list
+
+3. ls -l --> list all items in home
+
+4. ls -a --> to show hidden files
+
+5.man ls --> to show all related to ls
+
+6. cat>> demo.txt --> to append text
+
+7.mkdir --> to create a folder
+
+8. mkdir -p hello/hi --> to create both folder at a timesudo gedit /etc/apt/apt.conf
+
+9.mkdir -p hello/{hi,hiii,hlello}  --> to create mutiple sub folders in main folder
+
+10.rmdir --> to remove folder
+
+11.ls -R --> to show all files which present in each folder
+
+12. mv --> use to rename file name
+
+13.cat> hello.txt --> used to create textfile 
+
+14.touch --> you can create an empty file
+
+15.nano --> you can create file ,its shows when it is saved
