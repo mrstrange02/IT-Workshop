@@ -24,6 +24,14 @@ mv – rename or move files and directories to another location
 echo – “hello world”
 
 chown – change file/directory ownership
+
+
+Navigating filesystems and managing directories:
+
+•cd – change directory
+•pwd – confirm current directory
+•mkdir – make new directory
+•rmdir – remove directories in Unix
 ---------------------------------------------------------------------------------------------
 
 ADDITIONAL COMMANDS--------
