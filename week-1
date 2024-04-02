@@ -24,6 +24,7 @@ mv – rename or move files and directories to another location
 echo – “hello world”
 
 chown – change file/directory ownership
+---------------------------------------------------------------------------------------------
 
 ADDITIONAL COMMANDS--------
 
