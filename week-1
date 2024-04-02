@@ -1,3 +1,31 @@
+UNIX USER COMMANDS------
+
+whoami – show your username
+
+id – print user identity
+
+groups – show which groups user belongs to
+
+passwd – change user password
+
+who – find out who is logged into the system
+
+last – show history of logins into the system Unix file operations
+
+Navigating filesystem and managing files and access permissions:
+nslookup google.com – server address
+
+cp – copy files (work in progress)
+
+rm – remove files and directories (work in progress)
+
+mv – rename or move files and directories to another location
+
+echo – “hello world”
+
+chown – change file/directory ownership
+
+ADDITIONAL COMMANDS--------
 
 1.pwd --> for know username of computer
 
