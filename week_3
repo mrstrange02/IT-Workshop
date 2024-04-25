@@ -1,0 +1,94 @@
+Example 1;
+
+
+\documentclass{article}
+\title{My first laTeX Document}
+\author{Pavan Kalyan}
+\date{\today}
+\begin{document}
+\maketitle
+\section{introduction}
+This is my first latex document
+\subsection{features}
+\begin{itemize}
+\item Easy to formating
+\item support for mathematical Equations
+\item this project contains a file
+\end{itemize}
+
+\end{document}
+
+
+Example 2;
+
+
+\documentclass{book}
+\begin{document}
+	\chapter{ first chapter}
+	\section{introduction}
+	this is printing a book
+	ow a new paragraph is created by pressing the "enter" key twice, ending the
+	current line and inserting a subsequent blank line;
+	how to start a new line without starting
+	\end{document}
+	
+	
+Example 3;
+
+
+\documentclass{article} % Document class declaration
+\title{My First LaTeX Document}
+\author{pavan}
+\date{\today}
+\begin{document}
+	\maketitle
+	\section{Introduction}
+	This is my first LaTeX document. LaTeX is a typesetting system commonly
+	used for technical and scientific documents.
+	\section{Features}
+	\begin{itemize}
+		\item Easy formatting of text
+		\item Support for mathematical equations
+		\item Automatic generation of tables of contents, lists of figures, and lists of
+		tables
+		\item High-quality typesetting for professional-looking documents
+	\end{itemize}
+	\section{Conclusion}
+	LaTeX is a powerful tool for creating documents with complex formatting
+	requirements. With practice, you can create professional-looking documents
+	efficiently.
+\end{document}
+
+
+Example 4;
+
+
+\documentclass{article}
+\begin{document}
+	\title{Grand Welcome to Learn}
+	\author{SPK}
+	\date{\today}
+	\maketitle
+	\section{Introduction}
+	This is a simple LaTeX document to demonstrate troubleshooting.
+	\section{Main Content}
+	Here is some text with a \textbf{bold} word and an \emph{italic} word.
+	\subsection{Lists}hg
+	\begin{itemize}
+		\item First item
+		\item Second item
+	\end{itemize}
+	\section{Conclusion}
+	That’s all for now
+\end{document}
+
+
+
+
+
+
+
+
+	
+
+
