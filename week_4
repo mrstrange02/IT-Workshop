@@ -1,0 +1,83 @@
+Example: Table Creation
+
+
+\documentclass{article}
+\begin{document}
+	\begin{table}
+		\centering
+	\huge	\begin{tabular}{|c|c|c|}
+			\hline
+			
+			
+		Sl no & Name & Age\\
+		%	column1 & column2 & column3\\
+			\hline
+		     1 & Pavan & 21\\
+			 2 & Ramu & 20\\
+			 3 & Moksha & 27\\
+		%	row1,1 & row1,2 & row1,cel3\\
+		%	row2,cel1 & row2,cel2 & row2,cel3\\
+		%	row3,cel1 & row3,cel2 & row3,cel3\\
+			\hline
+			\end{tabular}
+		\caption{demo table}
+		\label{fig:tab}
+	
+	
+	\end{table}
+\end{document}
+
+
+Example: Image
+
+
+\documentclass{article}
+\usepackage{graphicx}
+
+\begin{document}
+	\begin{figure}
+		
+		\centering
+		\includegraphics[width=0.5\textwidth]{e.jpg}
+     	\caption{ {\huge Custurd Apple}}
+     
+     	
+     	    	
+     	\includegraphics[width=0.5\textwidth]{ed.jpg}
+     	\caption{{\huge Agriculture}}
+	\end{figure}
+\end{document}
+	
+	
+	
+Example: SubImage
+
+\documentclass{article}
+
+	\usepackage{graphicx}
+	\usepackage{subcaption}
+	\begin{document}
+		
+	
+	
+	\begin{figure}[h]
+		\centering
+		\begin{subfigure}[b]{0.45\textwidth}
+			\centering
+			\includegraphics[width=\linewidth]{e.jpg}
+			\caption{{\huge Agriculture} }
+			\label{fig:image1}
+			\end{subfigure}
+		
+		\hfill
+	
+			\begin{subfigure}[b]{0.45\textwidth}
+				\centering
+				\includegraphics[width=\linewidth]{e.jpg}
+				\caption{{\huge Custurd}}
+				\label{fig:image2}
+			\end{subfigure}
+		\end{figure}
+			
+			
+\end{document}
