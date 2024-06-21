@@ -1,0 +1,50 @@
+ 
+ 1.SORT
+ 
+ cat >>demo.txt
+ 
+Jenny
+Abhi
+Pavan
+Kalyan
+Bruno
+
+sort demo.txt --> for text
+
+Abhi
+Bruno
+Jenny
+Kalyan
+Pavan
+
+sort -n demo.txt ---> for numbers
+
+sort -r demo.txt -->Sorts data in reverse order (descending)
+
+Pavan
+Kalyan
+Jenny
+Bruno
+Abhi
+
+sort -nr number.txt -->Sorts a file with numeric data in reverse order
+
+sort -u demo.txt --> Sorts and removes duplicate lines, providing a unique sorted list
+
+sort -m monthfile.txt: Sorts by month names.
+
+Febrauary
+May
+March
+June
+August
+------------------------------------------------------------------------
+
+2.SHUTDOWN:
+
+shutdown -->shutdowns the system
+
+shutdown -c --> to cancel the Shutdown
+ 
+ 
+

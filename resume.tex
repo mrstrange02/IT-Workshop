@@ -1,0 +1,197 @@
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[margin=0.5in]{geometry}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\usepackage{graphicx}
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\input{glyphtounicode}
+
+\RequirePackage{tikz}
+\RequirePackage{xcolor}
+\RequirePackage{fontawesome}
+\usetikzlibrary{svg.path}
+
+\definecolor{cvblue}{HTML}{0E5484}
+\definecolor{black}{HTML}{130810}
+\definecolor{darkcolor}{HTML}{0F4539}
+\definecolor{cvgreen}{HTML}{3BD80D}
+\definecolor{taggreen}{HTML}{00E278}
+\definecolor{SlateGrey}{HTML}{2E2E2E}
+\definecolor{LightGrey}{HTML}{666666}
+\colorlet{name}{black}
+\colorlet{tagline}{darkcolor}
+\colorlet{heading}{darkcolor}
+\colorlet{headingrule}{cvblue}
+\colorlet{accent}{darkcolor}
+\colorlet{emphasis}{SlateGrey}
+\colorlet{body}{LightGrey}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+	\vspace{-4pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+% Custom commands
+\newcommand{\resumeItem}[1]{
+	\item\small{
+		{#1 \vspace{-2pt}}
+	}
+}
+
+\newcommand{\classesList}[4]{
+	\item\small{
+		{#1 #2 #3 #4 \vspace{-2pt}}
+	}
+}
+
+\newcommand{\resumeSubheading}[4]{
+	\vspace{-2pt}\item
+	\begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+		\textbf{\large#1} & \textbf{\small #2} \\
+		\textit{\large#3} & \textit{\small #4} \\
+	\end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+	\item
+	\begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+		\textit{\small#1} & \textit{\small #2} \\
+	\end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+	\item
+	\begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
+		\small#1 & \textbf{\small #2}\\
+	\end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+	\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+	\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+\newcommand\sbullet[1][.5]{\mathbin{\vcenter{\hbox{\scalebox{#1}{$\bullet$}}}}}
+
+% RESUME STARTS HERE
+\begin{document}
+	
+	% HEADING
+	\begin{center}
+		{\Huge \scshape Kokila Muppu} \\ \vspace{1pt}
+		Ramnagar, Hyderabad \\ \vspace{1pt}
+		\small \href{tel:+918688052327}{ \raisebox{-0.1\height}\faPhone\ \underline{+918688052327}} ~ \href{mailto:kokilamuppu50@gmail.com}{\raisebox{-0.2\height}\faEnvelope\ \underline{kokilamuppu50@gmail.com}} ~
+		\href{https://www.linkedin.com/in/muppukokila}{\raisebox{-0.2\height}\faLinkedinSquare\ \underline{muppukokila}} ~
+		\href{https://github.com/Muppukokila}{\raisebox{-0.2\height}\faGithub\ \underline{Muppukokila}} ~
+		\href{https://leetcode.com/u/Kokila123/}{\raisebox{-0.2\height}{\includegraphics[height=1.5ex]{gfg.png}} \ \underline{kokilamulm4}} ~
+		\href{https://www.geeksforgeeks.org/user/kokilamu1m4/}{\raisebox{-0.2\height}{\includegraphics[height=1.5ex]{leetcode.png}} \ \underline{kokilamulm4}}
+		\vspace{-8pt}
+	\end{center}
+	
+	% EDUCATION
+	\section{EDUCATION}
+	\resumeSubHeadingListStart
+	\resumeSubheading
+	{Rajiv Gandhi University of Knowledge Technologies}{11 2022 -- 05 2026}
+	{Bachelor of Technology in Computer Science Engineering - \textbf{CGPA} - \textbf{8.5}}{Basar, India}
+	\resumeSubHeadingListEnd
+	\resumeSubHeadingListStart
+	\resumeSubheading
+	{Rajiv Gandhi University of Knowledge Technologies}{11 2020 -- 11 2022}
+	{Intermediate - \textbf{Percentage} - \textbf{86\%}}{Basar, India}
+	\resumeSubHeadingListEnd
+	
+	% COURSEWORK / SKILLS
+	\section{COURSEWORK / SKILLS}
+	\begin{multicols}{4}
+		\begin{itemize}[itemsep=-2pt, parsep=5pt]
+			\item Data Structures \& Algorithms
+			\item Operating Systems
+			\item Network Security
+			\item Database Management System (DBMS)
+			\item Artificial Intelligence
+			\item OOPS Concept
+			\item Full-Stack Web Development
+			\item Cloud Computing
+		\end{itemize}
+	\end{multicols}
+	\vspace*{2.0\multicolsep}
+	
+	% PROJECTS
+	\section{PROJECTS}
+	\vspace{-5pt}
+	\resumeSubHeadingListStart
+	\resumeProjectHeading
+	{\href{https://github.com/Muppukokila/YouTube-clone.git}{\textbf{\large{\underline{YouTube-Clone}}} \href{https://github.com/Muppukokila/YouTube-clone.git}{\raisebox{-0.1\height}\faExternalLink }} $|$ \large{\underline{Technology Stack Used}}}{06 2024}
+	\resumeItemListStart
+	\resumeItem{\normalsize{\textbf{Frontend:} {HTML5, CSS3, JavaScript, React.js}}}
+	\resumeItem{\normalsize{\textbf{Backend:} {Firebase Authentication, Firebase Firestore, Firebase Storage}}}
+	\resumeItem{\normalsize{\textbf{Key Features:}}}
+	\resumeItem{\textbf{User Authentication:} Implemented secure user sign-up, login, and logout functionalities using Firebase Authentication.}
+	\resumeItem{\textbf{Video Management:} Enabled users to upload, view, and delete videos stored in Firebase Storage.}
+	\resumeItem{\textbf{Real-time Database:} Utilized Firebase Firestore for efficient, real-time database management.}
+	\resumeItem{\textcolor{accent} {\href{https://github.com/Muppukokila/YouTube-clone.git} {\underline{\normalsize{Github Link}}}}}
+	\resumeItemListEnd
+	\vspace{-10pt}
+	
+	\resumeProjectHeading
+	{\href{https://github.com/Muppukokila/Weather-App.git}{\textbf{\large{\underline{Weather App}}} \href{https://github.com/Muppukokila/Weather-App.git}{\raisebox{-0.1\height}\faExternalLink }} $|$ \large{\underline{Technology Stack Used}}}{01 2024}
+	\resumeItemListStart
+	\resumeItem{\normalsize{\textbf{Frontend:} {HTML5, CSS3, JavaScript, React.js}}}
+	\resumeItem{\normalsize{\textbf{API:} {OpenWeatherMap API}}}
+	\resumeItem{\textbf{Key Features:}}
+	\resumeItem{\textbf{Live Weather Data:} Fetches and displays real-time weather information for any city using the OpenWeatherMap API.}
+	\resumeItem{\textbf{Responsive Design:} Ensures optimal viewing experience across different devices and screen sizes.}
+	\resumeItem{\textcolor{accent} {\href{https://github.com/Muppukokila/Weather-App.git} {\underline{\normalsize{Github Link}}}}}
+	\resumeItemListEnd
+	\resumeSubHeadingListEnd
+	\vspace{-10pt}
+	
+	% EXPERIENCE
+	\section{EXPERIENCE}
+	\resumeSubHeadingListStart
+	\resumeSubheading
+	{Software Developer Intern}{05 2023 -- 07 2023}
+	{ABC Technologies}{Hyderabad, India}
+	\resumeItemListStart
+	\resumeItem{Developed and maintained web applications using React.js and Node.js, improving performance by 15\% through optimization.}
+	\resumeItem{Collaborated with a team of 5 to implement new features based on client requirements, leading to a 20\% increase in user satisfaction.}
+	\resumeItem{Wrote unit and integration tests using Jest and Enzyme, enhancing code quality and reducing bugs by 30\%.}
+	\resumeItemListEnd
+	\resumeSubHeadingListEnd
+	
+	% OTHER SECTION
+	\section{ACHIEVEMENTS}
+	\resumeSubHeadingListStart
+	\resumeItemListStart
+	\resumeItem{Secured 1st place in the State-level Coding Competition organized by XYZ in 2023.}
+	\resumeItem{Awarded Best Project Award for the YouTube-Clone project at the annual Tech Fest in 2024.}
+	\resumeItem{Consistently ranked in the top 5\% in competitive programming contests on platforms like LeetCode and GeeksforGeeks.}
+	\resumeItemListEnd
+	\resumeSubHeadingListEnd
+\end{document}

@@ -1,0 +1,49 @@
+ ftp ftp.dlptest.com 
+ 
+ 
+ dlp-data loss prevention
+ HwvTVOJzyI1qKg
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+=======================================================================
+SDF host uptime report for Seattle WA, Dallas TX (USA) and Germany (EU)
+             Please use 'tty.sdf.org' for general access
+=======================================================================
+
+SERVER          DAYS+HOUR:MIN       USERS   MACHINE LOAD
+----------------------------------------------------------------------
+9p             up  23+14:25,   12 users,  load:   0.00,   0.00,   0.00
+aNONradio      up  181+6:18,   51 users,  load:   0.42,   0.37,   0.36
+faeroes        up  63+08:25,   78 users,  load:   2.25,   2.31,   2.32
+iceland        up  63+11:47,   51 users,  load:   1.93,   2.28,   1.91
+jitsi          up  33+15:35,  866 users,  load:  11.06,   7.89,   7.56
+ma             up   56+8:37,    0 users,  load:   6.61,   6.47,   6.82
+matrix         up  54+12:09,  347 users,  load:   2.37,   2.31,   2.37
+miku           up  63+11:45,    3 users,  load:   0.02,   0.03,   0.00
+mx             up  63+08:47,  311 users,  load:   1.54,   2.07,   2.15
+norge          up  63+08:22,   93 users,  load:   0.00,   0.02,   0.00
+otaku          up  38+15:43,   50 users,  load:   0.38,   0.54,   0.50
+pixelfed       up  183+1:15, 2072 users,  load:   0.12,   0.23,   0.26
+rie            up  63+11:44,   59 users,  load:   1.27,   1.17,   1.18
+ryo            up  63+11:26,   67 users,  load:   0.43,   0.27,   0.33
+sdf            up  25+01:28,  129  user,  load:   1.98,   2.37,   2.54
+sdfeu          up 629+05:48,   34 users,  load:   3.88,   3.30,   3.17
+sverige        up  63+11:45,   14 users,  load:   0.36,   0.37,   0.34
+unix50         up  181+6:17,   93 users,  load: 116.84, 117.09, 117.19
+vps3           up 181+06:09,   49 users,  load:   5.17,   2.54,   1.67
+vps9           up 182+16:36,   17 users,  load:   5.99,   5.94,   5.65
+                             4396 total
+(continue)
+
+
+
+
+
+
+
+
